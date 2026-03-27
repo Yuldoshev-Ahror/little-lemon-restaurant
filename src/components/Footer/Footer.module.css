@@ -1,0 +1,42 @@
+.footer {
+  background: #1f2c28;
+  color: #f4f7f6;
+  padding: 4rem 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.logo {
+  width: 190px;
+}
+.copy {
+  line-height: 1.8;
+  color: #d4dcda;
+}
+.heading {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+  color: #d4dcda;
+}
+.list a:hover {
+  color: var(--primary-yellow);
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

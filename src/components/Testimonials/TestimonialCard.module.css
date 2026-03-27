@@ -1,0 +1,28 @@
+.card {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 1.4rem;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.rating,
+.name,
+.role,
+.review {
+  margin: 0;
+}
+.rating {
+  color: #b08500;
+  margin-bottom: 0.7rem;
+}
+.name {
+  font-size: 1.15rem;
+}
+.role {
+  margin-top: 0.35rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+.review {
+  margin-top: 1rem;
+  line-height: 1.7;
+}

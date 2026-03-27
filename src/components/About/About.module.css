@@ -1,0 +1,28 @@
+.inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 520px);
+  gap: 2rem;
+  align-items: center;
+}
+.location {
+  margin: -0.25rem 0 1.25rem;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+  margin: 0 0 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+.figure {
+  margin: 0;
+}
+.figure img {
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+}
