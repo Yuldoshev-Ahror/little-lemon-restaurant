@@ -2,16 +2,6 @@
   "name": "little-lemon-restaurant",
   "version": "0.1.0",
   "private": true,
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "keywords": [
-    "little",
-    "lemon",
-    "restaurant"
-  ],
-  "license": "ISC",
-  "author": "Yuldoshev Akhror",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

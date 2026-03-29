@@ -1,5 +1,29 @@
+const seededRandom = function (seed) {
+    var m = 2**35 - 31;
+    var a = 185852;
+    var s = seed % m;
+    return function () {
+        return (s = s * a % m) / m;
+    };
+}
+
+const randomAvailableTimes = function(date) {
+    let result = [];
+    let random = seededRandom(new Date());
+
+    for(let i = 17; i <= 23; i++) {
+        if(random() < 0.5) {
+            result.push(i + ':00');
+        }
+        if(random() < 0.5) {
+            result.push(i + ':30');
+        }
+    }
+    return result;
+};
+
 export const availableTimesByDate = {
-  default: ["17:00", "18:00", "19:00", "20:00", "21:00"],
+  default: randomAvailableTimes(),
   weekend: ["16:00", "17:00", "18:30", "20:00", "21:30"],
 };
 
