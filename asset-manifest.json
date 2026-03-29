@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b2d7a59.css",
-    "main.js": "/static/js/main.d63eecf7.js",
-    "static/js/453.2b7a8a0e.chunk.js": "/static/js/453.2b7a8a0e.chunk.js",
-    "index.html": "/index.html",
-    "static/media/about-chefs.svg": "/static/media/about-chefs.a24167585cd28decf153e64120ea528c.svg",
-    "static/media/logo.svg": "/static/media/logo.dd6fff8b3cfaa817361f2c75762a35f6.svg",
-    "main.7b2d7a59.css.map": "/static/css/main.7b2d7a59.css.map",
-    "main.d63eecf7.js.map": "/static/js/main.d63eecf7.js.map",
-    "453.2b7a8a0e.chunk.js.map": "/static/js/453.2b7a8a0e.chunk.js.map"
+    "main.css": "/little-lemon-restaurant/static/css/main.7b2d7a59.css",
+    "main.js": "/little-lemon-restaurant/static/js/main.08362774.js",
+    "static/js/453.2b7a8a0e.chunk.js": "/little-lemon-restaurant/static/js/453.2b7a8a0e.chunk.js",
+    "index.html": "/little-lemon-restaurant/index.html",
+    "static/media/about-chefs.svg": "/little-lemon-restaurant/static/media/about-chefs.a24167585cd28decf153e64120ea528c.svg",
+    "static/media/logo.svg": "/little-lemon-restaurant/static/media/logo.dd6fff8b3cfaa817361f2c75762a35f6.svg",
+    "main.7b2d7a59.css.map": "/little-lemon-restaurant/static/css/main.7b2d7a59.css.map",
+    "main.08362774.js.map": "/little-lemon-restaurant/static/js/main.08362774.js.map",
+    "453.2b7a8a0e.chunk.js.map": "/little-lemon-restaurant/static/js/453.2b7a8a0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b2d7a59.css",
-    "static/js/main.d63eecf7.js"
+    "static/js/main.08362774.js"
   ]
 }
